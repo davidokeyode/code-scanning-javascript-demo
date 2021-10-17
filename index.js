@@ -5,7 +5,7 @@ var mkdirp = require('mkdirp')
 var fs = require('fs')
 var path = require('path')
 var os = require('os')
-var key = "Ay5t1jOgxbTAm23zIVkLdgXBhWO6J9RmqnAyQOwV8TEIy0RheO4C+5pSCBcIPLgC6PLQd3bZVlLpeLoPiPPPzZ==";
+var key = "DefaultEndpointsProtocol=https;AccountName=c84c4630;AccountKey=Ay5t1jOgxbTAm23zIVkLdgXBhWO6J9RmqnAyQOwV8TEIy0RheO4C+5pSCBcIPLgC6PLQd3bZVlLpeLoPiPPPzZ==;EndpointSuffix=core.windows.net";
 
 var win32 = os.platform() === 'win32'
 
