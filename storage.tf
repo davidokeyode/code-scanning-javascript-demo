@@ -12,7 +12,7 @@ resource "azurerm_managed_disk" "disk" {
 }
 
 resource "azurerm_storage_account" "storage" {
-  name                     = "tgsa${var.environment}${random_integer.rnd_int.result}"
+  name                     = "tg1sa${var.environment}${random_integer.rnd_int.result}"
   resource_group_name      = azurerm_resource_group.rg.name
   location                 = azurerm_resource_group.rg.location
   account_tier             = "Standard"
